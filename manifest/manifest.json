@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "version": "1.0.0",
+  "packs": [
+    {
+      "id": "de",
+      "version": "1.0.0",
+      "url": "https://github.com/fl-tech-design/learn_A_language_packs/releases/download/packs-v1.0.0/lal-pack-de-1.0.0.zip",
+      "size_bytes": 25155444,
+      "sha256": "d4199c18ab5ac5fb58fd30c7fbfa95b6c5442a94fc69c54c8911a81e9877deee",
+      "min_app_version": "1.13.0",
+      "contents": [
+        "language_dict",
+        "audio",
+        "grammar"
+      ]
+    },
+    {
+      "id": "en",
+      "version": "1.0.0",
+      "url": "https://github.com/fl-tech-design/learn_A_language_packs/releases/download/packs-v1.0.0/lal-pack-en-1.0.0.zip",
+      "size_bytes": 22151515,
+      "sha256": "ede79b20d7a21d5871fa620db67d4bec42e26864aedc26481897deda97932057",
+      "min_app_version": "1.13.0",
+      "contents": [
+        "language_dict",
+        "audio"
+      ]
+    },
+    {
+      "id": "fr",
+      "version": "1.0.0",
+      "url": "https://github.com/fl-tech-design/learn_A_language_packs/releases/download/packs-v1.0.0/lal-pack-fr-1.0.0.zip",
+      "size_bytes": 12968318,
+      "sha256": "15a5dde3ae6c59c76e3c0be5abd16c9318bd137f83046c3111ce3daf3a26d5fe",
+      "min_app_version": "1.13.0",
+      "contents": [
+        "language_dict",
+        "audio"
+      ]
+    },
+    {
+      "id": "es",
+      "version": "1.0.0",
+      "url": "https://github.com/fl-tech-design/learn_A_language_packs/releases/download/packs-v1.0.0/lal-pack-es-1.0.0.zip",
+      "size_bytes": 27968718,
+      "sha256": "475893b6fc4f4dc626710a715dd8cedee9efa1ee7d119660e72ffabb2cbabd02",
+      "min_app_version": "1.13.0",
+      "contents": [
+        "language_dict",
+        "audio"
+      ]
+    },
+    {
+      "id": "el",
+      "version": "1.0.0",
+      "url": "https://github.com/fl-tech-design/learn_A_language_packs/releases/download/packs-v1.0.0/lal-pack-el-1.0.0.zip",
+      "size_bytes": 31389551,
+      "sha256": "40194c7b725bcccbfa5912140c78b08747a571fe2690625d9b14cc7f4dcf8a46",
+      "min_app_version": "1.13.0",
+      "contents": [
+        "language_dict",
+        "audio"
+      ]
+    },
+    {
+      "id": "ru",
+      "version": "1.0.0",
+      "url": "https://github.com/fl-tech-design/learn_A_language_packs/releases/download/packs-v1.0.0/lal-pack-ru-1.0.0.zip",
+      "size_bytes": 31979056,
+      "sha256": "f2ffff90899cfed423d2874450d0e157ed8bcf9b90353ff5ec3709ff753b977d",
+      "min_app_version": "1.13.0",
+      "contents": [
+        "language_dict",
+        "audio"
+      ]
+    },
+    {
+      "id": "it",
+      "version": "1.0.0",
+      "url": "https://github.com/fl-tech-design/learn_A_language_packs/releases/download/packs-v1.0.0/lal-pack-it-1.0.0.zip",
+      "size_bytes": 28891686,
+      "sha256": "a558f659aeef6169e313ffc833de9f76d1ae951ee7a4fd214508307001722a91",
+      "min_app_version": "1.13.0",
+      "contents": [
+        "language_dict",
+        "audio"
+      ]
+    },
+    {
+      "id": "pt",
+      "version": "1.0.0",
+      "url": "https://github.com/fl-tech-design/learn_A_language_packs/releases/download/packs-v1.0.0/lal-pack-pt-1.0.0.zip",
+      "size_bytes": 24214985,
+      "sha256": "6dfb54aed0444aad02f53d2b1ddc057378c276b3a3e6d89cff5d403245d8d0b1",
+      "min_app_version": "1.13.0",
+      "contents": [
+        "language_dict",
+        "audio"
+      ]
+    }
+  ]
+}

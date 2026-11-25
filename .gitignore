@@ -1,0 +1,12 @@
+# Build artefacts
+build/
+*.zip
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.idea/
+
+# Temporary files
+*.tmp
+*.bak
