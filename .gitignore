@@ -1,6 +1,9 @@
 # Build artefacts
 build/
+
+# Versioned pack ZIPs under dist/ are committed; all other ZIPs are ignored
 *.zip
+!dist/**/*.zip
 
 # Editor / OS
 .DS_Store

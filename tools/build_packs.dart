@@ -50,9 +50,10 @@ const List<String> packContents = [
 /// adjust here if the release number differs.
 const String minAppVersion = '1.13.0';
 
-/// Base URL for immutable download assets (GitHub Releases).
+/// Base URL for immutable download assets: versioned paths under `dist/`
+/// in this repository's `main` branch (served via raw.githubusercontent.com).
 const String downloadUrlBase =
-    'https://github.com/fl-tech-design/learn_A_language_packs/releases/download';
+    'https://raw.githubusercontent.com/fl-tech-design/learn_A_language_packs/main/dist';
 
 const String licenseNote = 'See repository / app license';
 
@@ -71,6 +72,10 @@ Future<void> main() async {
   final buildDir = Directory('${root.path}/build');
   if (await buildDir.exists()) await buildDir.delete(recursive: true);
   await buildDir.create(recursive: true);
+
+  // Veröffentlichtes, versioniertes Ausgabeverzeichnis (wird committet).
+  final distDir = Directory('${root.path}/dist/packs-v$packVersion');
+  await distDir.create(recursive: true);
 
   final packs = <Map<String, dynamic>>[];
 
@@ -114,7 +119,7 @@ Future<void> main() async {
 
     // ZIP
     final zipName = 'lal-pack-$lang-$packVersion.zip';
-    final zipPath = '${buildDir.path}/$zipName';
+    final zipPath = '${distDir.path}/$zipName';
     await _run(['zip', '-r', '-q', zipPath, '.'], workingDir: stage.path);
 
     // SHA-256 + size
