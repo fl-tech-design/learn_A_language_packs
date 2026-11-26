@@ -88,6 +88,20 @@ Download URLs are **immutable**: they point to versioned paths under
 `dist/packs-v<version>/` in this repository's `main` branch. Existing versions
 are never overwritten – a new release lives in a new directory.
 
+## Hosting
+
+All artifacts are served directly from this repository **via GitHub's raw
+content CDN** – there is **no GitHub Pages deployment** involved:
+
+- Manifest:
+  `https://raw.githubusercontent.com/fl-tech-design/learn_A_language_packs/main/manifest/manifest.json`
+- Packs: `https://raw.githubusercontent.com/fl-tech-design/learn_A_language_packs/main/dist/packs-v<version>/lal-pack-<lang>-<version>.zip`
+
+Because the URLs point at plain files in the `main` branch, a release only
+needs to be **committed and pushed** – no separate hosting/deployment step or
+service is required. Git itself acts as the immutability and distribution
+layer: every pack stays readable at its versioned path forever.
+
 ## Building
 
 Requirements: Dart SDK plus `zip` and `sha256sum` (available on Linux/macOS).
